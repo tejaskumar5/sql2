@@ -1,0 +1,11 @@
+create table students (
+st_id int primary key autoincrement,
+st_name varchar(255),
+age int,
+gender varchar(255)
+)
+
+insert into info(st_id,st_name,age,gender)values(1,'Krishna',20,'male');
+insert into info(st_id,st_name,age,gender)values(2,'Sailaja',21,'female');
+insert into info(st_id,st_name,age,gender)values(3,'Ravi',20,'male');
+
